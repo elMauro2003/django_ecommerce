@@ -26,6 +26,8 @@ SECRET_KEY = 'django-insecure-%0zu5$4^xncn=$g7^)pqw!f1y@@^tn)xcwff_5gw1n+wv0=l)$
 DEBUG = True
 
 ALLOWED_HOSTS = []
+LOGOUT_REDIRECT_URL = '/'
+LOGIN_REDIRECT_URL = '/'
 
 SESSION_COOKIE_AGE = 86400 # 1 day in seconds
 CART_SESSION_ID = 'cart'
@@ -122,6 +124,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
 STATIC_URL = 'static/'
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'media/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
