@@ -13,4 +13,7 @@ urlpatterns = [
     path('shop/', shop, name='shop'),
     path('shop/<slug:slug>/', product, name='product'),
 ]
-    
+
+
+# CAPITULO 15
+# PASSWORD DE USER MAURICIO: UserNo1#AG
